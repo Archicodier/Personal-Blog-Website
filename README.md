@@ -1,3 +1,3 @@
-# Website and Blog 
+# Website and Blog
 
 Personal website and blog
