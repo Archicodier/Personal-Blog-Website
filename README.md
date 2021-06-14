@@ -1,3 +1,3 @@
-# Website and Blog
+# Calvin-Hu-Website
 
-Personal website and blog
+Personal website
