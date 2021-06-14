@@ -4,6 +4,7 @@ import utilStyles from '../../styles/utils.module.css'
 import blogStyles from '../../styles/blog.module.css'
 import { getSortedPostsData } from '../../lib/posts'
 import Date from '../../components/date'
+import { Navbar } from '../../components/navbar'
 
 export default function Posts({
   allPostsData
@@ -15,6 +16,8 @@ export default function Posts({
   } []
 }) {
   return (
+    <>
+    <Navbar />
     <div className={blogStyles.container}>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
@@ -31,14 +34,9 @@ export default function Posts({
             </li>
           ))}
         </ul>
-        <div className={blogStyles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
       </section>
     </div>
-
+    </>
   )
 }
 

@@ -5,18 +5,20 @@ export const Navbar = () => {
   return (
     <>
     <div>
-      <nav>
-        <Link href='/about'>
-          About
-        </Link>
-        {' | '}
-        <Link href='/projects'>
-          Projects
-        </Link>
-        {' | '}
-        <Link href='/blog/posts'>
-          Blog
-        </Link>
+      <nav className={styles.nav}>
+        <div>
+          <Link href='/'>
+            CALVIN HU
+          </Link>
+          {' | '}
+          <Link href='/projects'>
+           PROJECTS
+          </Link>
+          {' | '}
+          <Link href='/blog/posts'>
+            WRITING
+         </Link>
+         </div>
         </nav>
     </div>
 
