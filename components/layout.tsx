@@ -6,7 +6,7 @@ import Link from 'next/link'
 import React from 'react'
 
 const name = 'Calvin Hu'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Calvin Hu'
 
 export default function Layout({ children, home }: {
   children: React.ReactNode
@@ -18,7 +18,7 @@ export default function Layout({ children, home }: {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Calvin Hu personal website"
         />
         <meta
           property="og:image"
@@ -32,6 +32,7 @@ export default function Layout({ children, home }: {
       <header className={styles.header}>
         {home ? (
           <>
+          <div className={styles.center}>
             <Image
               priority
               src="/images/profile.jpg"
@@ -41,6 +42,7 @@ export default function Layout({ children, home }: {
               alt={name}
             />
             <h1 className={utilStyles.headingXl}>{name}</h1>
+          </div>
           </>
         ) : (
           <>
@@ -64,12 +66,16 @@ export default function Layout({ children, home }: {
           </>
         )}
       </header>
-      <main>{children}</main>
+
+      <main className={styles.main}>{children}</main>
+
       {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
+        <div className={styles.main}>
+          <div className={styles.backToHome}>
+            <Link href="/">
+             <a>← Back to home</a>
+            </Link>
+          </div>
         </div>
       )}
     </div>
