@@ -6,11 +6,11 @@ export const Navbar = () => {
     <>
     <div>
       <nav>
-        <Link href='/'>
+        <Link href='/about'>
           About
         </Link>
         {' | '}
-        <Link href='/'>
+        <Link href='/projects'>
           Projects
         </Link>
         {' | '}
