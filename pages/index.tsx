@@ -25,7 +25,7 @@ export default function Home({
       </Head>
       <section className={utilStyles.headingMd}>
         <h3>About me</h3>
-        <p>Hi, I'm <strong>Calvin</strong>. I'm a software engineer</p>
+        <p>I'm <strong>Calvin Hu</strong>. I am a software engineer adept at designing and developing scalable, high-performance full-stack web and mobile applications. I'm very passionate about learning and applying new technologies along with my critical thinking to explore and solve real-world problems. I spent a few years worked as an Architecture Designer, but the rapidly growing software technologies inspired me to be a Full Stack Software Engineer.</p>
       </section>
     </Layout>
     </>
