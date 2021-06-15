@@ -8,15 +8,14 @@ var lists =
   },
   {
     name: 'Project Catwalk',
-    imageURL: 'https://cdn.downtoearth.org.in/library/medium/2016-09-22/0.11503100_1474548006_zebra.jpg',
-    url: 'https://github.com/Weyland-Software-Group/fec',
+    imageURL: 'https://website-chu.s3.us-west-1.amazonaws.com/project+catwalk+product+page.gif',
     summary: 'Project Catwalk is a project by the Weyland Software Group to take a set of data from an API and render it onto a beautiful product page.'
   },
   {
-    name: 'Project Catwalk',
-    imageURL: 'https://cdn.downtoearth.org.in/library/medium/2016-09-22/0.11503100_1474548006_zebra.jpg',
+    name: 'Reviews API',
+    imageURL: 'https://website-chu.s3.us-west-1.amazonaws.com/Load+testing_reviewAPI.png',
     url: 'https://github.com/Weyland-Software-Group/fec',
-    summary: 'Project Catwalk is a project by the Weyland Software Group to take a set of data from an API and render it onto a beautiful product page.'
+    summary: "Reviews API is the backend microservices of reviews module for our client's e-commerce website with the primary goal of improving the website's performance."
   }
 ]
 

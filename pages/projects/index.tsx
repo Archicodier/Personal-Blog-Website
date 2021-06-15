@@ -31,13 +31,13 @@ export default function Projects() {
           </div>
         </div>
         <div className={projectsStyles.section}>
-          <img className={projectsStyles.image} src={Lists[1].imageURL as string} />
+          <img className={projectsStyles.image} src={Lists[2].imageURL as string} />
           <div className={projectsStyles.division}>
-          <a className={projectsStyles.headingLg} href={Lists[1].url as string}>{Lists[1].name as string}</a>
+          <a className={projectsStyles.headingLg} href={Lists[2].url as string}>{Lists[2].name as string}</a>
            <div className={projectsStyles.a}>
-            <a className={projectsStyles.headingSsm} href={Lists[1].url as string}>github/project-catwalk</a>
+            <a className={projectsStyles.headingSsm} href={Lists[2].url as string}>github/project-catwalk</a>
            </div>
-           <div className={projectsStyles.headingSm}>{Lists[1].summary as string}</div>
+           <div className={projectsStyles.headingSm}>{Lists[2].summary as string}</div>
           </div>
         </div>
       </section>

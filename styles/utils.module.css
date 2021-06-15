@@ -70,3 +70,7 @@
 .box {
   display: block;
 }
+
+.description {
+  font-weight: 200;
+}
