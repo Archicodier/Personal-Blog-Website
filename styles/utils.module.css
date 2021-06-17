@@ -76,3 +76,17 @@
 .description {
   font-weight: 200;
 }
+
+.icons {
+  display: flex;
+}
+
+.icon {
+  margin-right: 2.5em;
+}
+
+.font {
+  margin-top: 2rem;
+  color: #666;
+  font-weight: 300;
+}

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { Navbar } from '../components/navbar'
+import { SocialIcon } from 'react-social-icons';
 
 export default function Home() {
   return (
@@ -18,14 +19,23 @@ export default function Home() {
         </div>
         <div className={utilStyles.clearfix}>
           <h3>Contact</h3>
-          <div>
-            <a href="https://www.calvinchenhupro@gmail.com"><span>Email</span></a>
-            {' | '}
-            <a href="https://www.linkedin.com/in/calvin-chen-hu-63243729/"><span>Linkedin</span></a>
-            {' | '}
-            <a href="https://github.com/chu017"><span>Github</span></a>
-            {' | '}
-            <a href="https://twitter.com/"><span>Twitter</span></a>
+          <div className={utilStyles.icons}>
+            <div className={utilStyles.icon}>
+              <SocialIcon url="https://www.calvinchenhupro@gmail.com"/>
+              <a className={utilStyles.font} href="https://www.calvinchenhupro@gmail.com"><span>Email</span></a>
+            </div>
+            <div className={utilStyles.icon}>
+              <SocialIcon url="https://www.linkedin.com/in/calvin-chen-hu-63243729"/>
+              <a className={utilStyles.font} href="https://www.linkedin.com/in/calvin-chen-hu-63243729"><span>Linkedin</span></a>
+            </div>
+            <div className={utilStyles.icon}>
+              <SocialIcon url="https://github.com/chu017"/>
+              <a className={utilStyles.font} href="https://github.com/chu017"><span>Github</span></a>
+            </div>
+            <div className={utilStyles.icon}>
+              <SocialIcon url="https://twitter.com"/>
+              <a className={utilStyles.font} href="https://twitter.com/"><span>Twitter</span></a>
+            </div>
           </div>
         </div>
       </section>

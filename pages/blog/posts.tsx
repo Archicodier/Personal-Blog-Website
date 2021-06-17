@@ -23,7 +23,7 @@ export default function Posts({
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <header className={styles.header}>
            <div className={utilStyles.headingXl}>Blog</div>
-           <div className={utilStyles.headingLg}>Writing about tech and beyond</div>
+           <div className={utilStyles.headingLg}>Writing about Tech and Beyond</div>
         </header>
         <main className={styles.main}>
           <ul className={utilStyles.list}>

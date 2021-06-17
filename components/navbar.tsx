@@ -7,17 +7,19 @@ export const Navbar = () => {
     <div>
       <nav className={styles.nav}>
         <div>
-          <Link href='/'>
-            CALVIN HU
-          </Link>
-          {' | '}
-          <Link href='/projects'>
-           PROJECTS
-          </Link>
-          {' | '}
-          <Link href='/blog/posts'>
-            WRITING
-         </Link>
+          <div className={styles.block_left}>
+            <Link href='/'>
+              <a className={styles.link_main}>CALVIN HU</a>
+            </Link>
+          </div>
+          <div className={styles.block_right}>
+            <Link href='/projects'>
+              <a className={styles.link_sub}>PROJECTS</a>
+            </Link>
+            <Link href='/blog/posts'>
+             <a className={styles.link_sub}>WRITING</a>
+            </Link>
+          </div>
          </div>
         </nav>
     </div>

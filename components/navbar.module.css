@@ -16,6 +16,34 @@
 
 .nav {
   margin-left: 0.5rem;
+  margin-right: 0.5rem;
   margin-top: 0.5rem;
   display: block;
+}
+
+.link_main {
+  color: black;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.link_sub {
+  color: black;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.block_left {
+  text-align: left;
+  letter-spacing: .08rem;
+  position: absolute;
+}
+
+.block_right {
+  text-align: right;
+  letter-spacing: .05rem;
 }
